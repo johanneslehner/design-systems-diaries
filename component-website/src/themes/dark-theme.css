@@ -1,0 +1,57 @@
+/* Dark Theme Colors */
+:root[data-theme="dark"] {
+  /* Primary Colors */
+  --primary-main: #90caf9;
+  --primary-light: #e3f2fd;
+  --primary-dark: #42a5f5;
+  --primary-contrast-text: rgba(0, 0, 0, 0.87);
+
+  /* Secondary Colors */
+  --secondary-main: #f48fb1;
+  --secondary-light: #ffc1e3;
+  --secondary-dark: #bf5f82;
+  --secondary-contrast-text: rgba(0, 0, 0, 0.87);
+
+  /* Background Colors */
+  --background-default: #121212;
+  --background-paper: #1e1e1e;
+
+  /* Text Colors */
+  --text-primary: rgba(255, 255, 255, 0.87);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-disabled: rgba(255, 255, 255, 0.38);
+
+  /* Divider */
+  --divider: rgba(255, 255, 255, 0.12);
+
+  /* Error Colors */
+  --error-main: #f44336;
+  --error-light: #e57373;
+  --error-dark: #d32f2f;
+  --error-contrast-text: #ffffff;
+
+  /* Warning Colors */
+  --warning-main: #ffa726;
+  --warning-light: #ffb74d;
+  --warning-dark: #f57c00;
+  --warning-contrast-text: rgba(0, 0, 0, 0.87);
+
+  /* Info Colors */
+  --info-main: #29b6f6;
+  --info-light: #4fc3f7;
+  --info-dark: #0288d1;
+  --info-contrast-text: rgba(0, 0, 0, 0.87);
+
+  /* Success Colors */
+  --success-main: #66bb6a;
+  --success-light: #81c784;
+  --success-dark: #388e3c;
+  --success-contrast-text: rgba(0, 0, 0, 0.87);
+
+  /* Additional UI Colors */
+  --action-active: rgba(255, 255, 255, 0.56);
+  --action-hover: rgba(255, 255, 255, 0.08);
+  --action-selected: rgba(255, 255, 255, 0.16);
+  --action-disabled: rgba(255, 255, 255, 0.3);
+  --action-disabled-background: rgba(255, 255, 255, 0.12);
+}

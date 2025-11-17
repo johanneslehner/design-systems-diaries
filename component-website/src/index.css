@@ -1,0 +1,83 @@
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Default to light theme if no theme is set */
+:root:not([data-theme]) {
+  /* Primary Colors */
+  --primary-main: #1976d2;
+  --primary-light: #42a5f5;
+  --primary-dark: #1565c0;
+  --primary-contrast-text: #ffffff;
+
+  /* Secondary Colors */
+  --secondary-main: #dc004e;
+  --secondary-light: #ff5983;
+  --secondary-dark: #9a0036;
+  --secondary-contrast-text: #ffffff;
+
+  /* Background Colors */
+  --background-default: #ffffff;
+  --background-paper: #f5f5f5;
+
+  /* Text Colors */
+  --text-primary: rgba(0, 0, 0, 0.87);
+  --text-secondary: rgba(0, 0, 0, 0.6);
+  --text-disabled: rgba(0, 0, 0, 0.38);
+
+  /* Divider */
+  --divider: rgba(0, 0, 0, 0.12);
+
+  /* Error Colors */
+  --error-main: #d32f2f;
+  --error-light: #ef5350;
+  --error-dark: #c62828;
+  --error-contrast-text: #ffffff;
+
+  /* Warning Colors */
+  --warning-main: #ed6c02;
+  --warning-light: #ff9800;
+  --warning-dark: #e65100;
+  --warning-contrast-text: #ffffff;
+
+  /* Info Colors */
+  --info-main: #0288d1;
+  --info-light: #03a9f4;
+  --info-dark: #01579b;
+  --info-contrast-text: #ffffff;
+
+  /* Success Colors */
+  --success-main: #2e7d32;
+  --success-light: #4caf50;
+  --success-dark: #1b5e20;
+  --success-contrast-text: #ffffff;
+
+  /* Additional UI Colors */
+  --action-active: rgba(0, 0, 0, 0.54);
+  --action-hover: rgba(0, 0, 0, 0.04);
+  --action-selected: rgba(0, 0, 0, 0.08);
+  --action-disabled: rgba(0, 0, 0, 0.26);
+  --action-disabled-background: rgba(0, 0, 0, 0.12);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
